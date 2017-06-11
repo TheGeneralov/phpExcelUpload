@@ -14,7 +14,7 @@ $filepath = $uploadfile;
 //$filepath = $base_path ."struct.xlsx";
 
     $base_path = $modx->getOption('base_path');
-    $path_php_excel = $base_path ."assets/components/phpexcel/PHPExcel.php";
+    $path_php_excel = $base_path ."assets/components/phpexcel/PHPExcel.php"; // Тут необходимо указать путь до PHPExcel
     require_once $path_php_excel;
     $arEx=array(); // инициализируем массив
 
